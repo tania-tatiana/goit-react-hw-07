@@ -6,12 +6,6 @@ import { nanoid } from "nanoid";
 import { addContact } from "../../redux/contactsSlice";
 import { useDispatch } from "react-redux";
 
-// const dispatch = useDispatch();
-// const conatcts = useSelector((state) => state.contacts.value);
-// const handleSubmit = () => {
-//   dispatch(deposit(5));
-// };
-
 const formSchema = Yup.object().shape({
   username: Yup.string()
     .min(3, "Minimum 3 lettters")
