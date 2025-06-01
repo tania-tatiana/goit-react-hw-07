@@ -8,6 +8,7 @@
   background-color: #fff;
   color: #000;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 .text {
   font-size: 24px;
